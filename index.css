@@ -1,0 +1,90 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0e68c; /* لون خلفية ذهبي */
+    font-family: 'Arial', sans-serif;
+}
+
+.clock-container {
+    background-color: #8b4513; /* لون خلفية بني */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    color: #fff;
+    border: 5px solid #cd853f; /* لون إطار خشبي */
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 2.5em;
+    color: #ffd700; /* لون ذهبي */
+}
+
+.controls {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.control {
+    text-align: center;
+    background-color: #a0522d; /* لون بني داكن */
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #8b4513; /* لون إطار بني */
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    padding: 5px 10px;
+    margin: 0 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #ffd700; /* لون ذهبي */
+    color: #8b4513; /* لون بني */
+    font-weight: bold;
+}
+
+button:active {
+    background-color: #cd853f; /* لون خشبي */
+}
+
+.timer {
+    margin-bottom: 20px;
+    background-color: #a0522d; /* لون بني داكن */
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #8b4513; /* لون إطار بني */
+}
+
+#time-left {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #ffd700; /* لون ذهبي */
+}
+
+.actions {
+    display: flex;
+    justify-content: center;
+}
+
+#start_stop, #reset {
+    margin: 0 10px;
+    background-color: #ffd700; /* لون ذهبي */
+    color: #8b4513; /* لون بني */
+    font-weight: bold;
+}
+
+#start_stop:active, #reset:active {
+    background-color: #cd853f; /* لون خشبي */
+}
